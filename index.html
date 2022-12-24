@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="다채로운young 글 세계 탐구하기" />
+        <meta property="og:description" content="어서와 코딩은 처음이지?" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>르탄이 - 프로필 링크</title>
+		<style>
+			@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+			* {
+				font-family: "Pretendard",serif;
+			}	
+			body{
+				background-color: #a3b8ff;
+			}
+			.profile{
+				width: 100px;
+				height: 100px;
+
+				border-radius: 100%;
+
+				border: 2px dashed gray;
+
+				background-image: url(프로필이미지.png);
+				background-position: center;
+				background-size: cover;
+			}
+			.main{
+				color: black;
+				font-size: 25px;
+
+				margin-top: 30px;
+				margin-bottom: 10px;
+			}
+			.sub{
+				color: black;
+				font-size: 20px;
+
+				margin-top: 0px;
+				margin-bottom: 30px;
+			}
+			.wrap{
+				width: 300px;
+				margin: 30px auto 0px auto;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.wrap > a {
+				width: 300px;
+				height: 50px;
+
+				background-color: white;
+				border-radius: 8px;
+
+				margin-bottom: 10px;
+
+				font-size: 18px;
+				font-weight: bold;
+				color: black;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				text-decoration: none; 
+
+				box-shadow: 3px 3px 5px 0px black;
+			}
+			.wrap > a:hover {
+				background-color: #c0c0c0;
+			}
+
+		</style>
+    </head>
+    <body>
+		<div class="wrap">
+			<div class="profile"></div>
+			<h1 class="main"> 다채로운young</h1>
+			<p class="sub"> 다양한 곳에 다채로운 글을 씁니다. </p>
+			<a target="_blank" href="https://blog.naver.com/dachaeloun0">일상 속 평범한 이야기</a>
+			<a target="_blank" href="https://brunch.co.kr/@dachaeloun0">생각에 대한 깊은 사고</a>
+		</div>
+		
+    </body>
+</html>
